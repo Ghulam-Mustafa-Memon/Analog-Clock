@@ -1,0 +1,47 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#clock {
+  position: relative;
+  background: url(./pngwing.com.png);
+  background-position: center;
+  background-size: cover;
+  height: 44vw;
+  width: 44vw;
+  margin: auto;
+}
+
+.niddle {
+  transform-origin: bottom;
+  position: absolute;
+  border-radius: 44px;
+  background-color: black;
+}
+
+#hour {
+  height: 22%;
+  width: 1%;
+  top: 27%;
+  left: 49.5%;
+}
+
+#minute {
+  height: 30%;
+  width: 1%;
+  top: 19%;
+  left: 49.5%;
+}
+
+#second {
+  height: 38%;
+  width: 0.5%;
+  top: 11%;
+  left: 49.5%;
+}
